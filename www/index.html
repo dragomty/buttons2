@@ -1,43 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <body style="background-color:powderblue;"> 
+        
+        
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
+    
+    
+    
+    
+
 
 <div data-role="page" id="pageone">
-  <div data-role="header">
-    <h1>Welcome To My Homepage</h1>
-  </div>
+    
+    <div data-role="panel" id="myPanel">
+        
+    <h2>Nothing to see here</h2>
+    <p>There is no way to close this, you are doomed ;)</p>
+    <p>On the other hand, u can click this and get "broken" status</p>
+    <a href="#pagefour">I want "broken" status</a>
 
-  <div data-role="main" class="ui-content">
-    <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
-    <a href="#pagetwo">Go to Page Two</a>
-  </div>
+    </div>
+    
+    
 
-  <div data-role="footer">
-    <h1>456</h1>
-  </div>
+      <div data-role="main" class="ui-content">
+        <p>GREETINGS</p>
+           <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
+      </div>
+
+      <div data-role="footer">
+        <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
+        <a href="#pagetwo">Go to Page Two</a>
+      </div>
+    
 </div>
+
+
+
+
+
 
 <div data-role="page" id="pagetwo">
-  <div data-role="header">
-    <h1>Welcome To My Homepage</h1>
-  </div>
+      <div data-role="header">
+        <h1>Welcome To My Homepage</h1>
+      </div>
 
-  <div data-role="main" class="ui-content">
-    <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
-    <a href="#pageone">Go to Page One</a>
-  </div>
+      <div data-role="main" class="ui-content">
+        <p>GREETINGS AGAIN</p> 
+          
+        <p>Choose an option</p>
+          
+          <fieldset class="ui-grid-a">
+                <div class="ui-block-a"><input type="Submit" value="DEATH" data-theme="a"></div>
+                <div class="ui-block-b"><input type="Reset" value="DEATH" data-theme="b"></div>
+          </fieldset>
+          
+      </div>
 
-  <div data-role="footer">
-    <h1>123</h1>
-  </div>
+      <div data-role="footer">
+        <h1>Footer Text</h1>
+         <p>This is Page Two. If you click on the link below, it will take you to Page One or three.</p>
+        <a href="#pageone">Go to Page One</a>
+          <a href="#pagethree">Go to Page three</a>  
+      </div>
+    
 </div>
+
+    
+    
+    
+    
+    
+    
+<div data-role="page" id="pagethree">
+              <div data-role="header">
+                <h1>Welcome To My Homepage</h1>
+              </div>
+
+              <div data-role="main" class="ui-content">
+                <p>NOTHING TO SEE HERE, GO AWAY!</p>   
+              </div>
+
+
+              <div data-role="footer">
+                <h1>Footer Text</h1>
+                 <p>This is Page three. If you click on the link below, it will take you to Page two or one.</p>
+                <a href="#pagetwo">Go to Page two</a>
+                <a href= "#pageone">Go to the page one</a>
+              </div>
+        
+</div>
+    
+    
+    
+    
+    
+   <div data-role="page" id="pagefour">
+              <div data-role="header">
+                <h1>Welcome To My Homepage</h1>
+              </div>
+
+              <div data-role="main" class="ui-content">
+                <p>NOTHING TO SEE HERE, GO AWAY!</p>   
+              </div>
+      
+  </div>
 
 </body>
 </html>
-
